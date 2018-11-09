@@ -1,0 +1,258 @@
+.bg-grey {
+  background-color: #e8e8e8;
+}
+
+.navbar {
+  background-color: #181818a6 !important;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  z-index:1020;
+  position:absolute;
+  width: 100%;
+
+  li {
+    font-size: 1.4em;
+    font-family: 'Lato', sans-serif;
+    padding: 0 15px;
+  }
+}
+
+.sticky-top {
+  position: fixed !important;
+  z-index: 1020 !important;
+  background-color: #383838 !important;
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+  height: 100vh;
+
+  video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+    opacity:0.5;
+  }
+
+  .container {
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    margin-top: 100px;
+  }
+
+  .midia-social {
+    position: absolute;
+    z-index: 100;
+    right: 42px;
+    top: 230px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.75;
+    text-align: center;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+
+    li {
+      padding-left: 0;
+    }
+
+    li a,
+    li a:visited {
+      color: #FFFFFF;
+    }
+
+    li a:hover,
+    li a:focus,
+    li a:active {
+      color: #44c455;
+    }
+  }
+
+  .midia-social::before {
+    display: block;
+    content: "";
+    width: 2px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+  }
+
+  .scrolldown {
+    position: relative;
+    bottom: 56px;
+    right: 34px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    float: right;
+
+    i {
+      padding-left: 9px;
+    }
+
+  }
+
+  html[data-useragent*='MSIE 10.0'] .scrolldown,
+  .oldie .scrolldown {
+    display: none;
+  }
+
+  .scroll-icon {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #FFFFFF !important;
+    background: transparent;
+    position: relative;
+    top: 0;
+    right: 0;
+    -webkit-animation: animate-it 3s ease infinite;
+    animation: animate-it 3s ease infinite;
+  }
+
+  .scroll-icon i {
+    font-size: 1.8rem;
+    position: relative;
+    bottom: -6px;
+  }
+
+
+  /* vertical animation */
+
+  @-webkit-keyframes animate-it {
+    0%,
+    60%,
+    80%,
+    100% {
+      -webkit-transform: translateX(0);
+    }
+    0%,
+    60%,
+    80%,
+    100% {
+      transform: translateX(0);
+    }
+    20% {
+      -webkit-transform: translateX(-5px);
+    }
+    20% {
+      transform: translateX(-5px);
+    }
+    40% {
+      -webkit-transform: translateX(20px);
+    }
+    40% {
+      transform: translateX(20px);
+    }
+  }
+
+  @keyframes animate-it {
+    0%,
+    60%,
+    80%,
+    100% {
+      -webkit-transform: translateX(0);
+    }
+    0%,
+    60%,
+    80%,
+    100% {
+      transform: translateX(0);
+    }
+    20% {
+      -webkit-transform: translateX(-5px);
+    }
+    20% {
+      transform: translateX(-5px);
+    }
+    40% {
+      -webkit-transform: translateX(20px);
+    }
+    40% {
+      transform: translateX(20px);
+    }
+  }
+
+  .btn {
+      margin-top: 20px;
+  }
+}
+
+section.bloco {
+  padding: 80px 0;
+
+  h2::before {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 150px;
+    background-color: #218838;
+    position: absolute;
+    left: 18px;
+    top: 50px;
+  }
+  h4 {
+    color: #686868;
+  }
+
+  .separador {
+    margin: 60px 0;
+  }
+
+  .topico {
+    height: 200px;
+
+    i {
+      font-size: 5em;
+      color: #218838;
+    }
+    h5 {
+      font-size: 2.4em;
+      margin-top: 6px;
+    }
+  }
+}
+
+section#sangria-automatizada {
+  h2::before {
+    width: 220px;
+    left: unset;
+    right: 18px;
+  }
+  h2 {
+    text-align: right;
+  }
+}
+
+section#mapeamento-e-sensoriamento {
+  h2::before {
+    top: 80px;
+  }
+}
+
+section#contato {
+  h2::before {
+    left: unset;
+    right: 18px;
+  }
+  h2 {
+    text-align: right;
+  }
+}
