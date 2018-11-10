@@ -2,7 +2,6 @@
 layout: block-left
 name: quem-somos
 title: Quem Somos
-published: false
 
 ---
 #### Somos é a primeira startup brasileira voltada para a heveicultura de precisão.
