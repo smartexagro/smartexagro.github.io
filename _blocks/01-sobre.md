@@ -2,7 +2,7 @@
 layout: block-left
 name: quem-somos
 title: Quem Somos
-
+weight: 1
 ---
 #### Somos a primeira startup brasileira voltada para a heveicultura de precisão.
 
