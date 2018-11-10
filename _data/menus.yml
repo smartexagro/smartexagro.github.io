@@ -3,15 +3,15 @@
   url: /
   title: Início
 1-sobre:
-  url: #sobre
+  url: /\#sobre
   title: Sobre
 2-sangria-automatizada:
-  url: #sangria-automatizada
+  url: /\#sangria-automatizada
   title: Sangria Automatizada
 3-mapeamento-e-sensoriamento:
-  url: #mapeamento-e-sensoriamento
+  url: /\#mapeamento-e-sensoriamento
   title: Mapeamento e Sensoriamento
 4-contato:
-  url: #contato
+  url: /\#contato
   title: Contato
 ---
