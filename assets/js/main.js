@@ -40,4 +40,10 @@ $( document )
     // Defer para carregamento posterior do video
     deferVideo();
 
+    // Smooth Scroll
+    var scroll = new SmoothScroll( 'a[href*="#"]', {
+      speed: 600,
+      easing: 'easeInOutQuad'
+    } );
+
   } )
