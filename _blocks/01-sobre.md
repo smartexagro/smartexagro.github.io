@@ -8,4 +8,4 @@ title: Quem Somos
 
 #### Nosso objetivo é desenvolver soluções de automação industrial para aplicar no campo e gerar novas técnicas para o manejo da heveicultura, obtendo com isso mais eficiência, produtividade, economia, qualidade, controle e longevidade no cultivo da borracha natural.
 
-#### É uma meta de grande relevância para nos disponibilizar uma heveicultura os benefícios que um Smartex pode oferecer!
+#### É uma meta de grande relevância para nós disponibilizarmos à heveicultura os benefícios que a Smartex pode oferecer!
