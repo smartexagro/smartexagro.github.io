@@ -5,11 +5,16 @@ description: >- # Alterar apenas nas linhas abaixo
   Heveicultura de Precisão
 baseurl: "/"
 url: ""
+
+# Mídias Sociais
 twitter_username: smartexagro
 github_username: smartexagro
 youtube_username: UCgCxamxZSoTWMM0hwSNdWdA
 intagram_username: smartexagro
 facebook_username: smartexagro
+
+# Serviços de Rastramento
+google_analytics_key: UA-128989682-1
 
 # Conteudos
 collections:
