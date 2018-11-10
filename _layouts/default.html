@@ -60,7 +60,8 @@ layout: compress
       <div class="collapse navbar-collapse" id="navegacao">
         <!-- Links de Navegação -->
         <ul class="navbar-nav justify-content-between ml-auto">
-          {% for item in site.menus.principal %}
+          {% assign menus = site.data.menus.principal | sort: 'weight' %}
+          {% for item in menus %}
           <li class="nav-item">
             <a class="nav-link" href="{{ item.url }}" title="Ir para {{ item.title }}">{{ item.title }}</a>
           </li>
