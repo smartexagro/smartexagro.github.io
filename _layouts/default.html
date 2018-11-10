@@ -60,21 +60,11 @@ layout: compress
       <div class="collapse navbar-collapse" id="navegacao">
         <!-- Links de Navegação -->
         <ul class="navbar-nav justify-content-between ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">Início <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#quem-somos">Quem Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sangria-automatizada">Sangria Automatizada</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#mapeamento-e-sensoriamento">Mapeamento e Sensoriamento</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#contato">Contato</a>
-          </li>
+          {% for item in site.menus.principal %}
+            <li class="menu-item-{{ loop.index }}">
+              <a href="{{ item.url }}" title="Ir para {{ item.title }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
 
