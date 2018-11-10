@@ -5,15 +5,17 @@ admin_path: painel
 webhook_url: 
 sections:
 - type: directory
+  path: _posts
+  label: Postagens
+  create: documents
+  match: "**/*"
+- type: directory
   path: _blocks
   label: Blocos
   create: documents
   match: "**/*"
 - type: jekyll-pages
   label: Paginas
-  create: all
-- type: jekyll-posts
-  label: Postagens
   create: all
 upload_dir: "./uploads"
 public_path: "/uploads"
