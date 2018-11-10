@@ -61,9 +61,9 @@ layout: compress
         <!-- Links de Navegação -->
         <ul class="navbar-nav justify-content-between ml-auto">
           {% for item in site.menus.principal %}
-            <li class="menu-item-{{ loop.index }}">
-              <a href="{{ item.url }}" title="Ir para {{ item.title }}">{{ item.title }}</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ item.url }}" title="Ir para {{ item.title }}">{{ item.title }}</a>
+          </li>
           {% endfor %}
         </ul>
       </div>
