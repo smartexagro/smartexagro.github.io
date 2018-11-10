@@ -21,6 +21,7 @@ sass:
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-menus
 
 # Ignora os arquivos do sistema
 exclude:

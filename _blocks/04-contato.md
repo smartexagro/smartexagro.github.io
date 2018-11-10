@@ -1,7 +1,7 @@
 ---
 layout: block-right
-name: sobre
-title: Sobre
+name: contato
+title: Contato
 ---
 
 #### Form aqui
