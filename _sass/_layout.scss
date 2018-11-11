@@ -296,9 +296,35 @@
   }
 }
 
+
+
+
 /*
 // Blocos de Conteúdo do Site Onepage
 */
+
+footer,
+section, {
+    padding: 150px 0;
+    margin-top: -2px
+}
+
+footer,
+section {
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    transform: skewY(-5deg)
+}
+
+footer>div,
+section>div {
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    transform: skewY(5deg)
+}
+
 
 section.bloco {
   padding: 120px 0;
