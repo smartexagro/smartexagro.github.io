@@ -35,13 +35,13 @@ weight: 3
 
 #### **ISA-M** - Implemento de Sangria Automatizada Móvel:
 
-###### Neste sistema utilizamos um ou mais implementos de sangria automatizada que serão capazes de efetuar a sangria de qualquer árvore ou sequência de árvores em série, desde que já tenham um painel aberto. Esses implementos serão operados por um técnico, ou apenas monitorados caso seja utilizado o módulo de precisão autônoma
+###### Este sistema utilizará um único implemento que será capaz de realizar a sangria automatizada de qualquer árvore, ou de uma várias árvores sendo uma por vez, desde que já tenha um painel aberto. Esses implementos serão operados por um técnico, ou apenas monitorados caso seja utilizado o módulo de precisão autônoma... Em breve mais informações!
 
 ***
 
 #### **ICA** - Implemento de Colheita Automatizada:
 
-###### Sistema específico para coleta automatizada de canecas utilizando implemento específico. Serão operados por um técnico, ou apenas monitorados caso utilizado módulo de precisão autônoma
+###### Sistema específico para coleta automatizada de canecas utilizando implemento específico. Serão operados por um técnico, ou apenas monitorados caso utilizado módulo de precisão autônoma... Em breve mais informações!
 
 ***
 
@@ -50,7 +50,7 @@ weight: 3
 ###### Acessórios complementares dos implementos para aumentar gama de recursos e otimizar precisão de processos específicos:
 
 * Conectividade e Sensoriamento complementar para CIS-F
-* Capa de Chuva para ISA-F
+* Capa de Proteção para ISA-F
 * Caneca Inteligente
 * Aplicador automatizado de coagulante/anti-coagulante
 * Aplicador automatizado de estimulante (Ethrel)
