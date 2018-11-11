@@ -11,12 +11,12 @@ weight: 3
 
 #### **ISA-F** - Implemento de Sangria Automatizada Fixo:
 
-###### Neste método instalamos e ajustamos um implemento ISA-F em cada árvore. O próprio implemento abrirá o painel e permanecerá instalado na mesma árvore preferencialmente por toda a vida produtiva dela, desde que efetue corretamente suas devidas manutenções e reposicionamentos entre safras pré determinadas, de acordo com um balanceamento de painel próprio para obter um melhor aproveitamento deste método. Os principais resultados desse sistema são:
+###### Neste método instalamos e ajustamos um implemento ISA-F em cada árvore. O próprio implemento abrirá o painel e permanecerá instalado na mesma árvore preferencialmente por toda a vida produtiva dela, desde que efetue corretamente suas devidas manutenções e reposicionamentos entre safras pré determinadas, de acordo com um balanceamento de painel próprio para obter um melhor aproveitamento deste método. Os resultados esperados desse sistema são:
 
-* Sangrias padronizadas, precisas, ascendentes ou descendentes sem erro no corte
-* Consumo de casca mínimo, programável e preciso.
-* Sangrias podem ser programadas com qualquer frequência (d1, d2, d3, etc.), em qualquer horário do dia ou da noite e de todas as árvores quase que simultaneamente, com a operaçao toda durando poucos minutos.
-* Com capa de chuva, permite uma melhor qualidade do produto final sem impurezas e sangrias sem perdas em dias e períodos chuvosos (aumento em média de 30% na produtividade dependendo da região/ano)
+* Sangrias podem ser programadas com qualquer frequência (d1, d2, d3, etc.), em qualquer horário do dia ou da noite e de todas as árvores em uma operação de poucos minutos.
+* Sangrias padronizadas, precisas, ascendentes ou descendentes sem erro no corte e com consumo de casca mínimo, programável e preciso.
+* Possibilidade de estimular fisicamente a sangria.
+* Com capa de chuva, permite uma melhor qualidade do produto final sem impurezas, alem de não ter perda de sangria em dias e períodos chuvosos (aumento em média de 30% da produtividade dependendo da região/ano)
 * Pode ser instalado em qualquer altura do tronco da árvore, inclusive em galhos altos aproveitando ao máximo a casca virgem da árvore e os pontos altos que são mais produtivos.
 
 ***
