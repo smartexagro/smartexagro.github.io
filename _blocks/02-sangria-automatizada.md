@@ -5,9 +5,9 @@ title: Sangria Automatizada
 weight: 3
 
 ---
-###### Estamos há 5 anos investindo em pesquisas, capacitação pessoal e desenvolvimento de protótipos e atualmente nos encontramos em um estágio avançado do que chamamos ”MSA”, (Método de Sangria Automatizada) que será um sistema dividido em blocos compostos por diferentes componentes:
+###### Nosso projeto já completou 5 anos de pesquisas, capacitação pessoal e desenvolvimento de protótipos e testes. Atualmente nos encontramos em um estágio avançado do que chamamos ”MSA”, (Método de Sangria Automatizada) que será um sistema dividido em blocos compostos por diferentes componentes:
 
-#### **  
+##### **  
 ISA-F (Implemento de Sangria Automatizada Fixo):**
 
 ###### Neste método instalamos e ajustamos um implemento ISA-F em cada árvore. O próprio implemento abrirá o painel e permanecerá instalado na mesma árvore preferencialmente por toda a vida produtiva dela, desde que efetue corretamente suas devidas manutenções e reposicionamentos entre safras pré determinadas, de acordo com um balanceamento de painel próprio, para obter um melhor aproveitamento deste método. Os principais resultados desse sistema são:
