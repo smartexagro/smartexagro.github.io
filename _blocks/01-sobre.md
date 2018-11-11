@@ -5,7 +5,7 @@ title: Quem Somos
 weight: 1
 
 ---
-#### Somos a primeira startup brasileira voltada para a heveicultura de precisão.
+#### Somos a primeira startup brasileira voltada para heveicultura de precisão.
 
 #### Nascemos com o objetivo de desenvolver soluções de automação industrial agrícola para gerar novas técnicas de manejo na heveicultura e entregar ao produtor uma alternativa que supere a técnica atual com resultados como aumento de produtividade, economia, padronização da sangria, confiabilidade da informação gerada, melhoria na qualidade do produto final, maior controle e apropriação de todo o processo de explotação.
 
