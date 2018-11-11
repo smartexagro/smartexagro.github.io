@@ -53,7 +53,7 @@ weight: 3
 * Capa de Proteção para ISA-F
 * Caneca Inteligente
 * Aplicador automatizado de coagulante/anti-coagulante
-* Aplicador automatizado de estimulante (Ethrel)
+* Aplicador automatizado de estimulante químico (Ethrel)
 * Gerador Móvel para ISA-M
 * Módulos de Autonomia para ICA e para ISA-M
 * Smartex-Apps - Softwares e Apps divididos em módulos para gestão e operação do MSA
