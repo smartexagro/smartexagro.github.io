@@ -1,17 +1,17 @@
 ---
 principal:
-- url: http://smartex.agr.br
-  title: Início
-  weight: 1
 - url: "#quem-somos"
   weight: 2
   title: Quem Somos
+- url: http://smartex.agr.br
+  title: Início
+  weight: 1
 - url: "#sangria-automatizada"
   weight: 4
   title: Sangria Automatizada
-- url: "#mapeamento-e-sensoriamento"
+- url: "#sensoriamento-remoto"
   weight: 3
-  title: Mapeamento e Sensoriamento
+  title: Sensoriamento Remoto
 - url: "#contato"
   weight: 5
   title: Contato
