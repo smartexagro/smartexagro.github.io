@@ -1,7 +1,7 @@
 ---
 layout: block-right
-name: mapeamento-e-sensoriamento
-title: Mapeamento e Sensoriamento
+name: sensoriamento-remoto
+title: Sensoriamento Remoto
 weight: 2
 
 ---
