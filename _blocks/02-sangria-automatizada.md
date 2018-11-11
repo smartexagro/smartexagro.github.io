@@ -23,7 +23,7 @@ weight: 3
 
 #### **CIS-F** - Controlador de Implemento de Sangria Fixo:
 
-###### É um complemento indispensável para escalar o sistema ISA-F,  que além de promover conectividade e inteligência no sistema ISA-F implementado em escala em uma mesma propriedade, sua principal função ainda é simplificar a infraestrutura necessária, reduzindo significativamente o custo de investimento do sistema como um todo. São responsabilidades do CIS:
+###### É um complemento indispensável para escalar o sistema ISA-F,  pois além de promover conectividade e inteligência no sistema ISA-F, sua outra principal função é simplificar a infraestrutura necessária, reduzindo significativamente o custo de investimento de implantaçao do sistema como um todo. São de responsabilidades do CIS-F as seguintes funções:
 
 * Redistribuir alimentação de energia;
 * Gerenciar agendamentos e comandar tarefas dos ISAs;
@@ -47,9 +47,9 @@ weight: 3
 
 #### **EXTRAS:**
 
-###### Acessórios complementares de implementos para aumentar gama de recursos e otimizar processos específicos
+###### Acessórios complementares dos implementos para aumentar gama de recursos e otimizar precisão de processos específicos:
 
-* Conectividade e Sensoriamento de ambiente e clima para CIS-F
+* Conectividade e Sensoriamento complementar para CIS-F
 * Capa de Chuva para ISA-F
 * Caneca Inteligente
 * Aplicador automatizado de coagulante/anti-coagulante
