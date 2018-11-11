@@ -5,7 +5,7 @@ title: Sangria Automatizada
 weight: 3
 
 ---
-###### Com 5 anos de pesquisas em heveicultura, capacitação pessoal, elaboração de protótipos e testes em campo, atualmente nos encontramos em um estágio avançado de desenvolvimento do que chamamos de ”MSA” (Método de Sangria Automatizada), um sistema dividido em blocos compostos por diferentes componentes:
+###### Com 5 anos de pesquisas em heveicultura, capacitação pessoal, elaboração de protótipos e testes em campo, atualmente nos encontramos em um estágio avançado de desenvolvimento do que chamamos de ”MSA” (Método de Sangria Automatizada), um sistema dividido em blocos compostos por diferentes componentes. Destacamos os seguintes itens:
 
 ***
 
@@ -54,8 +54,8 @@ weight: 3
 * Caneca Inteligente
 * Aplicador automatizado de coagulante/anti-coagulante
 * Aplicador automatizado de estimulante químico (Ethrel)
-* Gerador Móvel para ISA-M
-* Módulos de Autonomia para ICA e para ISA-M
+* GISA - Gerador Móvel para ISA-M
+* Módulos de Autonomia e precisão para ICA e para ISA-M
 * Smartex-Apps - Softwares e Apps divididos em módulos para gestão e operação do MSA
 
 ***
