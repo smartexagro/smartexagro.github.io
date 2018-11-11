@@ -35,7 +35,7 @@ weight: 3
 
 #### **ISA-M** - Implemento de Sangria Automatizada Móvel:
 
-###### Neste sistema utilizamos um ou mais implementos de sangria automatizada que serão capazes de efetuar a sangria de qualquer árvore com painel aberto. Esses implementos serão operados por um técnico, ou apenas monitorados caso seja utilizado o módulo de precisão autônoma
+###### Neste sistema utilizamos um ou mais implementos de sangria automatizada que serão capazes de efetuar a sangria de qualquer árvore ou sequência de árvores em série, desde que já tenham um painel aberto. Esses implementos serão operados por um técnico, ou apenas monitorados caso seja utilizado o módulo de precisão autônoma
 
 ***
 
@@ -55,6 +55,7 @@ weight: 3
 * Aplicador automatizado de coagulante/anti-coagulante
 * Aplicador automatizado de estimulante (Ethrel)
 * Gerador Móvel para ISA-M
+* Módulos de Autonomia para ICA e para ISA-M
 * Smartex-Apps - Softwares e Apps divididos em módulos para gestão e operação do MSA
 
 ***
