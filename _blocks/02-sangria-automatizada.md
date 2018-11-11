@@ -21,7 +21,7 @@ weight: 3
 
 ***
 
-#### **CIS-F** - Controlador para Implemento de Sangria Fixo:
+#### **CIS-F** - Controlador de Implemento de Sangria Fixo:
 
 ###### É um complemento indispensável para escalar o sistema ISA-F,  que além de promover conectividade e inteligência no sistema ISA-F implementado em escala em uma mesma propriedade, sua principal função ainda é simplificar a infraestrutura necessária, reduzindo significativamente o custo de investimento do sistema como um todo. São responsabilidades do CIS:
 
