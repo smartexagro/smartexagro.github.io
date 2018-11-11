@@ -16,14 +16,14 @@ weight: 3
 * Sangrias podem ser programadas com qualquer frequência (d1, d2, d3, etc.), em qualquer horário do dia ou da noite e de todas as árvores simultaneamente, com uma operação de poucos minutos.
 * Sangrias padronizadas, precisas, ascendentes ou descendentes sem erro no corte e com consumo de casca mínimo, programável e preciso.
 * Com uso da caneca inteligente é possível estimular a sangria fisicamente.
-* Com capa de chuva, permite uma melhor qualidade do produto final sem impurezas, alem de não ter perda de sangria em dias e períodos chuvosos (aumento em média de 30% da produtividade dependendo da região/ano)
+* Com uso da capa de proteção, pode-se obter uma qualidade muito superior do produto final, livre de impurezas, além de não ter perda de sangria em dias e períodos chuvosos (aumento em média de 30% da produtividade dependendo da região/ano)
 * Pode ser instalado em qualquer altura do tronco da árvore, inclusive em galhos altos aproveitando ao máximo a casca virgem da árvore e os pontos altos que são mais produtivos.
 
 ***
 
 #### **CIS-F** - Controlador de Implemento de Sangria Fixo:
 
-###### É um complemento indispensável para escalar o sistema ISA-F,  pois além de promover conectividade e inteligência no sistema ISA-F, sua outra principal função é simplificar a infraestrutura necessária, reduzindo significativamente o custo de investimento de implantaçao do sistema como um todo. São de responsabilidades do CIS-F as seguintes funções:
+###### É um complemento indispensável para escalar o sistema ISA-F,  pois além de promover conectividade e inteligência no sistema ISA-F, sua outra principal função é simplificar a infraestrutura necessária, reduzindo significativamente o investimento em implantação do sistema como um todo. São de responsabilidades do CIS-F as seguintes funções:
 
 * Redistribuir alimentação de energia;
 * Gerenciar agendamentos e comandar tarefas dos ISAs;
