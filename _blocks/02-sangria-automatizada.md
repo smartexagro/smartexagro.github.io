@@ -35,7 +35,7 @@ weight: 3
 
 #### **ISA-M** - Implemento de Sangria Automatizada Móvel:
 
-###### Este sistema utilizará um único implemento que será capaz de realizar a sangria automatizada de qualquer árvore, ou de uma várias árvores sendo uma por vez, desde que já tenha um painel aberto. Esses implementos serão operados por um técnico, ou apenas monitorados caso seja utilizado o módulo de precisão autônoma... Em breve mais informações!
+###### Este sistema utilizará um único implemento que será capaz de realizar a sangria automatizada de qualquer árvore, ou de várias árvores sendo uma de cada vez, desde que já tenham um painel aberto. Esses implementos serão operados por um técnico, ou apenas monitorados caso seja utilizado o módulo de precisão autônoma... Em breve mais informações!
 
 ***
 
