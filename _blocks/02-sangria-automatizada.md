@@ -5,11 +5,11 @@ title: Sangria Automatizada
 weight: 3
 
 ---
-##### Estamos há 5 anos investindo em pesquisas, capacitação pessoal e desenvolvimento de protótipos e atualmente nos encontramos em um estágio avançado do que chamamos ”MSA”, (Método de Sangria Automatizada) que será um sistema dividido em blocos compostos por diferentes componentes:
+###### Estamos há 5 anos investindo em pesquisas, capacitação pessoal e desenvolvimento de protótipos e atualmente nos encontramos em um estágio avançado do que chamamos ”MSA”, (Método de Sangria Automatizada) que será um sistema dividido em blocos compostos por diferentes componentes:
 
 #### **ISA-F (Implemento de Sangria Automatizada Fixo):**
 
-##### Neste método instalamos e ajustamos um implemento ISA-F em cada árvore. O próprio implemento abrirá o painel e permanecerá instalado na mesma árvore preferencialmente por toda a vida produtiva dela, desde que efetue corretamente suas devidas manutenções e reposicionamentos entre safras pré determinadas, de acordo com um balanceamento de painel próprio, para obter um melhor aproveitamento deste método. Os principais resultados desse sistema são:
+###### Neste método instalamos e ajustamos um implemento ISA-F em cada árvore. O próprio implemento abrirá o painel e permanecerá instalado na mesma árvore preferencialmente por toda a vida produtiva dela, desde que efetue corretamente suas devidas manutenções e reposicionamentos entre safras pré determinadas, de acordo com um balanceamento de painel próprio, para obter um melhor aproveitamento deste método. Os principais resultados desse sistema são:
 
 * Sangrias padronizadas, precisas, ascendentes ou descententes sem erro no corte
 * Consumo de casca mínimo, programável e preciso.
@@ -19,7 +19,7 @@ weight: 3
 
 #### **CIS-F - Controlador para Implemento de Sangria Fixo:**
 
-##### Além de promover conectividade e inteligência no sistema ISA-F implementado em escala em uma mesma propriedade, sua principal função ainda é simplificar a infraestrutura necessária, reduzindo significativamente o custo de investimento do sistema como um todo. São responsabilidades do CIS:
+###### Além de promover conectividade e inteligência no sistema ISA-F implementado em escala em uma mesma propriedade, sua principal função ainda é simplificar a infraestrutura necessária, reduzindo significativamente o custo de investimento do sistema como um todo. São responsabilidades do CIS:
 
 * Redistribuir alimentação de energia;
 * Gerenciar agendamentos e comandar tarefas dos ISAs;
@@ -29,11 +29,11 @@ weight: 3
 
   #### **ISA-M (Implemento de Sangria Automatizada Móvel):**
 
-##### Neste método utilizamos um ou mais implementos, que serão operados por um técnico, ou apenas monitorados caso utilizado módulo de precisão autônoma
+###### Neste método utilizamos um ou mais implementos, que serão operados por um técnico, ou apenas monitorados caso utilizado módulo de precisão autônoma
 
 #### **Smartex-EXTRAS:**
 
-##### Acessórios complementares de implementos para aumentar gama de recursos e otimizar processos específicos
+###### Acessórios complementares de implementos para aumentar gama de recursos e otimizar processos específicos
 
 * Sensores de ambiente clima para CIS-F
 * Capa de Chuva para ISA-F
