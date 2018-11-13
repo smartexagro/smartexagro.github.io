@@ -4,9 +4,9 @@ layout: default
 
 {% assign blocks = site.blocks | sort: 'weight' %}
 {% for block in blocks %}
-<!-- Bloco de Conteudo: {{ block.title }} -->
     {% assign level = block.id | split: "/" | size %}
     {% if level == 3 %}
+      <!-- Bloco de Conteudo: {{ block.title }} -->
       {{ block.output }}
     {% endif %}
 {% endfor %}
