@@ -370,6 +370,10 @@ section.bloco {
   }
 }
 
+section.bloco:first-child {
+  padding: 10px 0 !important;
+}
+
 section#sangria-automatizada {
   h2::before {
     width: 220px;
