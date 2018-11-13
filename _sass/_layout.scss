@@ -333,15 +333,19 @@ section>div {
 section.bloco {
   padding: 120px 0;
 
+  h2 {
+    margin-bottom: 2em;
+  }
+
   h2::before {
     display: block;
     content: "";
     height: 2px;
     width: 150px;
     background-color: #218838;
-    position: absolute;
-    left: 18px;
-    top: 50px;
+    position: relative;
+    left: 0;
+    top: 50px
   }
   h4 {
     color: #686868;
@@ -369,24 +373,24 @@ section.bloco {
 section#sangria-automatizada {
   h2::before {
     width: 220px;
-    left: unset;
-    right: 18px;
+    margin-left: auto;
+    top: 90px;
   }
   h2 {
     text-align: right;
   }
 }
 
-section#mapeamento-e-sensoriamento {
+section#sensoriamento-remoto {
   h2::before {
-    top: 80px;
+    top: 90px;
+    left: 0
   }
 }
 
 section#contato {
   h2::before {
-    left: unset;
-    right: 18px;
+    margin-left: auto;
   }
   h2 {
     text-align: right;
