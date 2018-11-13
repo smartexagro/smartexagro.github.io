@@ -376,6 +376,7 @@ section.bloco:first-child {
 
 section#sangria-automatizada {
   h2::before {
+    top: 90px;
     width: 220px;
     margin-left: auto;
   }
