@@ -1,0 +1,41 @@
+<section id="{{ page.name }}" class="bloco">
+  <div class="container">
+   <div class="row">
+     <div class="col-4">
+       <h2>{{ page.title }}</h2>
+     </div>
+     <div class="col-8">
+       {{ content }}
+     </div>
+   </div>
+   <div class="row">
+    {% assign list = site.blocks | where_exp: "item" , "item.id contains page.id" | uniq | sort: "weight" %}
+    {% for item in list %}
+      {% assign level = item.id | split: "/" | size %}
+      {% if level == 4 %}
+        {% if item.col_width %}
+        <div class="col-{{ item.col_width }} p-10"">
+        {% else %}
+        <div class="col-12 p-10">
+        {% endif %}
+          <div class="card" id="{{ item.url | slugify }}">
+            {% if item.featured_image %}
+            <img class="card-img-top" src="{{ item.featured_image | prepend: baseurl }}" alt="{{ item.title }}">
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title">
+                <strong>{{ item.title }}</strong>
+                {% if item.description %}
+                - {{ item.description }}
+                {% endif %}
+              </h5>
+              <hr />
+              <p class="card-text">{{ item.content | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</section>
