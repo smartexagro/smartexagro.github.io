@@ -1,13 +1,16 @@
 <section id="{{ page.name }}" class="bloco">
   <div class="container">
    <div class="row">
+     <!-- Título do Bloco -->
      <div class="col-xs-12 col-sm-12 col-md-4">
        <h2>{{ page.title }}</h2>
      </div>
+     <!-- Conteúdo do Bloco -->
      <div class="col-xs-12 col-sm-12 col-md-8">
        {{ content }}
      </div>
    </div>
+   <!-- Tópicos Informativos -->
    <div class="row">
     {% assign list = site.blocks | where_exp: "item" , "item.id contains page.id" | uniq | sort: "weight" %}
     {% for item in list %}
@@ -20,9 +23,11 @@
         {% endif %}
           <div class="card" id="{{ item.url | slugify }}">
             {% if item.featured_image %}
+            <!-- Imagem em Destaque do Tópico -->
             <img class="card-img-top" src="{{ item.featured_image | prepend: baseurl }}" alt="{{ item.title }}">
             {% endif %}
             <div class="card-body">
+              <!-- Título do Tópico -->
               <h5 class="card-title">
                 <strong>{{ item.title }}</strong>
                 {% if item.description %}
@@ -30,6 +35,7 @@
                 {% endif %}
               </h5>
               <hr />
+              <!-- Conteúdo do Tópico -->
               <p class="card-text">{{ item.content | markdownify }}</p>
             </div>
           </div>
