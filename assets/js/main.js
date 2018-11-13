@@ -18,7 +18,7 @@ $( document )
       .on( 'scroll', function () {
         if ( $( window )
           .scrollTop() >= $( window )
-          .height() + 1 ) {
+          .height() - 25 ) {
           $( '.navbar' )
             .addClass( 'sticky-top' );
           $( '.scroll-top' )
