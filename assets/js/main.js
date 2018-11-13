@@ -18,7 +18,7 @@ $( document )
       .on( 'scroll', function () {
         if ( $( window )
           .scrollTop() >= $( window )
-          .height() - 25 ) {
+          .height() - 110 ) {
           $( '.navbar' )
             .addClass( 'sticky-top' );
           $( '.scroll-top' )
@@ -31,19 +31,20 @@ $( document )
         }
       } );
 
-    // Botão Conhecer
-    $( '#conhecer' )
-      .on( 'click', function () {
-        //
-      } );
-
     // Defer para carregamento posterior do video
     deferVideo();
 
     // Smooth Scroll
     var scroll = new SmoothScroll( 'a[href*="#"]', {
       speed: 600,
-      easing: 'easeInOutQuad'
+      easing: 'easeInOutQuad',
+      offset: function ( anchor, toggle ) {
+        if ( $( toggle )
+          .attr( 'href' ) == '#quem-somos' ) {
+          return 80;
+        }
+        return 0;
+      },
     } );
 
   } )
