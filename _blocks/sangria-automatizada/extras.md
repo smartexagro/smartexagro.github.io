@@ -1,10 +1,10 @@
 ---
 title: EXTRAS
-weight: 6
-col_width: 12
+weight: 8
+col_width: 6
 
 ---
-###### Outros implementos e acessórios complementares para aumentar ainda mais a gama de recursos e otimizar a precisão de processos específicos:
+###### Outros implementos e acessórios complementares para a gama de recursos e otimizar a precisão de processos específicos:
 
 * Caneca Inteligente
 * Capa de Proteção para ISA-F
