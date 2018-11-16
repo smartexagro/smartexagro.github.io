@@ -2,7 +2,7 @@
 title: ISA-F
 description: Implemento de Sangria Automatizada Fixo
 weight: 1
-col_width: 6
+col_width: 8
 
 ---
 ###### Neste método instalamos e ajustamos um implemento ISA-F em cada árvore. O próprio implemento abrirá o painel e permanecerá instalado na mesma árvore preferencialmente por toda a vida produtiva dela, desde que efetue corretamente suas devidas manutenções e reposicionamentos entre safras pré determinadas, de acordo com um balanceamento de painel próprio para obter um melhor aproveitamento deste método. Os resultados esperados desse sistema são:
