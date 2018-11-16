@@ -10,5 +10,5 @@ col_width: 4
 * Redistribuir alimentação de energia;
 * Gerenciar agendamentos e comandar tarefas dos ISAs;
 * Realizar leitura de sensores;
-* Gerar e transmitir informações precisas;
+* Gerar e transmitir dados precisos;
 * Estabelecer conexão de dados online para operações remotas
