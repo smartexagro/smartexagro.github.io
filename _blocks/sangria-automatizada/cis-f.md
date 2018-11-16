@@ -11,4 +11,4 @@ col_width: 4
 * Gerenciar agendamentos e comandar tarefas dos ISAs;
 * Realizar leitura de sensores;
 * Gerar e transmitir dados precisos;
-* Estabelecer conexão de dados online para operações remotas
+* Estabelecer conexão de dados online para operações remotas.
