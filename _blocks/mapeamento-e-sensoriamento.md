@@ -11,6 +11,8 @@ weight: 2
 
 ##### O sensoriamento remoto consiste na captação, tratamento e análise de dados coletados, de forma que se conheça melhor os fenômenos existentes na região monitorada e obter os seguintes resultados:
 
+***
+
 * **Estimativa de área plantada:** através das imagens consegue-se estimar toda extensão da plantação, podendo controlar e acompanhar o crescimento da área plantada.
 
 
