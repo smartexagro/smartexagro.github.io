@@ -18,4 +18,3 @@ weight: 2
 * **Saúde das plantas e culturas:** através dos diferentes espectros de imagens das plantas é possível perceber aquelas que não estão desenvolvendo como deveriam e também as que carecem de água e determinados nutrientes.
 * **Detecção de pragas na plantação e gargalos no processo produtivo:** assim como no monitoramento da saúde das plantas, através da coloração das imagens e mapeamento 3D da área, conseguimos encontrar pragas e locais de baixa produção permitindo evitar quedas significativas na produção.
 * **Perímetro Basal:** através do mapeamento de pontos por ressonância a laser integrado ao mapeamento por espectros de cores é possível mapear em 3D toda a área rural, estipulando informações como o tamanho da circunferência do tronco da árvore à 1,5 metros de altura.
-* 
