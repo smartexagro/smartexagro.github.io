@@ -5,4 +5,4 @@ weight: 5
 col_width: 6
 
 ---
-###### Sistema específico para coleta automatizada de canecas utilizando implemento específico. Serão operados por um técnico, ou apenas monitorados caso utilizado módulo de precisão autônoma... Em breve mais informações!
+###### CSA - Coagulador de Sangria Autônomo - Sistema específico para aplicação de coagulante ou anti-coagulante nas canecas de forma autônoma, utilizando um implemento específico para a versão ISA-F e outro para a versão ISA-M... Em breve mais informações!
