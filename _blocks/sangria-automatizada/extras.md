@@ -4,12 +4,12 @@ weight: 6
 col_width: 12
 
 ---
-###### Acessórios complementares dos implementos para aumentar gama de recursos e otimizar precisão de processos específicos:
+###### Outros implementos e acessórios complementares para aumentar ainda mais a gama de recursos e otimizar a precisão de processos específicos:
 
 * Caneca Inteligente
-* Conectividade e Sensoriamento (CIS-F)
-* Capa de Proteção (ISA-F)
-* Auto-aplicador de coagulante/anti-coagulante (ISA-F / ISA-M)
-* Auto-aplicador de estimulante químico Ethrel (ISA-F / ISA-M)
-* Módulo Auto-Piloto - Autonomia e Precisão (ISA-M / ICA)
+* Capa de Proteção para ISA-F
+* Módulo de Conectividade e Sensoriamento para CIS-F
+* CSA Coagulador de Sangria Autônomo - Aplicador de coagulante ou anti-coagulante (versões ISA-F e ISA-M)
+* ESA Estimulador de Sangria Autônomo - Aplicador de estimulante químico Ethrel (versões ISA-F e ISA-M)
+* Módulos de Auto-Piloto - Autonomia e Precisão para os implementos: GISA, ISA-M, CSA, ESA ICA
 * Smartex-Apps - Softwares e Apps divididos em módulos para gestão e operação do MSA
