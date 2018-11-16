@@ -1,6 +1,6 @@
 ---
 title: CSA
-description: Implemento de Colheita Automatizada
+description: CSA - Coagulador de Sangria Autônomo
 weight: 5
 col_width: 6
 
