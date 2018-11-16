@@ -38,3 +38,4 @@ exclude:
 - README.md
 - LICENSE.txt
 - CNAME
+- seo-keywords.md
