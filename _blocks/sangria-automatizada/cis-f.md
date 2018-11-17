@@ -5,7 +5,7 @@ weight: 2
 col_width: 4
 
 ---
-###### É um complemento indispensável para escalar o sistema ISA-F,  pois além de promover conectividade e inteligência para todos os Implementos distribuídos de forma fixa na propriedade, sua outra principal função é simplificar a infraestrutura necessária, reduzindo significativamente o investimento de implantação do sistema todo. São de responsabilidades do CIS-F as seguintes funções:
+###### É um complemento indispensável para escalar o sistema ISA-F,  pois além de promover conectividade e inteligência para todos os Implementos ISA distribuídos de forma fixa na propriedade, sua outra principal função é simplificar a infraestrutura de energia elétrica necessária, reduzindo significativamente o investimento de implantação do sistema todo. São de responsabilidades do CIS-F as seguintes funções:
 
 * Redistribuir alimentação de energia;
 * Gerenciar agendamentos e comandar tarefas dos ISAs;
