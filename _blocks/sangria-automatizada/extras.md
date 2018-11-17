@@ -1,7 +1,7 @@
 ---
 title: EXTRAS
 weight: 8
-col_width: 8
+col_width: 9
 
 ---
 ###### Outros implementos e acessórios complementares para a gama de recursos e otimizar a precisão de processos específicos:
