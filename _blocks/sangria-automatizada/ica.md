@@ -5,4 +5,4 @@ weight: 7
 col_width: 3
 
 ---
-###### Sistema específico para coleta automatizada de canecas utilizando implemento específico. Serão operados por um técnico, ou apenas monitorados caso utilizado módulo de precisão autônoma... Em breve mais informações!
+###### Sistema específico para coleta automatizada de canecas utilizando um implemento específico que será operado por um técnico ou apenas monitorado, caso utilize módulo auto-piloto... Em breve mais informações!
