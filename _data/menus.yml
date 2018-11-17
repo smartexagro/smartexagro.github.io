@@ -3,7 +3,7 @@ principal:
 - url: "#quem-somos"
   weight: 2
   title: Quem Somos
-- url: http://smartex.agr.br
+- url: "#inicio"
   title: Início
   weight: 1
 - url: "#sangria-automatizada"
