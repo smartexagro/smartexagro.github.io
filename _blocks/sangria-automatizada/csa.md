@@ -5,4 +5,4 @@ weight: 5
 col_width: 6
 
 ---
-###### O CSA é um sistema específico para aplicação de coagulante ou anti-coagulante nas canecas de forma autônoma, utilizando um implemento específico para a versão ISA-F e outro para a versão ISA-M... Em breve mais informações!
+###### O CSA é um implemento em desenvolvimento especificamente para efetuar a aplicação de coagulante ou anti-coagulante nas canecas de forma automática. Esse implemento terá duas versões: a primeira será um complemento para ISAs e a segunda, uma versão totalmente autônoma... Em breve mais informações!
