@@ -1,6 +1,6 @@
 ---
 title: GISA
-description: Implemento de Sangria Automatizada Móvel
+description: Gerador de Implemento de Sangria Autônomo
 weight: 4
 col_width: 6
 
