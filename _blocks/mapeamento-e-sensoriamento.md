@@ -14,7 +14,7 @@ weight: 2
 ***
 
 * **Estimativa de área plantada:** através das imagens consegue-se estimar toda extensão da plantação, podendo controlar e acompanhar o crescimento da área plantada.
-* **Levantamento do número de plantas em determinada área:** utilizando as imagens como base e aplicando os algoritmos específicos, é possível levantar o inventário de de plantas existentes, detectar áreas de menor densidade e otimizar a plantação.
+* **Levantamento do número de plantas em determinada área:** utilizando as imagens como base e aplicando os algoritmos específicos, é possível levantar o inventário de plantas existentes, detectar áreas de menor densidade e otimizar a plantação.
 * **Saúde das plantas e culturas:** através dos diferentes espectros de imagens das plantas é possível perceber aquelas que não estão desenvolvendo como deveriam e também as que carecem de água e determinados nutrientes.
 * **Detecção de pragas na plantação e gargalos no processo produtivo:** assim como no monitoramento da saúde das plantas, através da coloração das imagens e mapeamento 3D da área, conseguimos encontrar pragas e locais de baixa produção permitindo evitar quedas significativas na produção.
 * **Levantamento do perímetro Basal:** através do mapeamento de pontos por ressonância a laser integrado ao mapeamento por espectros de cores, é possível mapear em 3D toda a área rural, estipulando informações precisas como o tamanho da circunferência do tronco de cada árvore a 1,5 metros de altura (perímetro basal), detectando então de uma só vez e em toda a propriedade, o momento ideal para o início da sangria de cada planta, além de monitorar o crescimento e o nível de stress individualmente.
