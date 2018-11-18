@@ -15,7 +15,7 @@ layout: compress
     <meta name="description" content="{{ site.description }}" />
 
     <!-- URL Canonica -->
-    <link rel="canonical" href="{{ site.url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 
     <!-- Verificação do Google -->
     <meta name="google-site-verification" content="hHEB3_Pf4HuEFCxDCvsvSyZ3suOMRVqQyXfLoAWT4BU" />
