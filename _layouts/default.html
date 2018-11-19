@@ -14,6 +14,7 @@ layout: compress
     <title>{{ site.title }} - {{ site.slogan }}</title>
     <meta name="application-name" content="{{ site.title }} - {{ site.slogan }}"/>
     <meta name="description" content="{{ site.description }}" />
+    <meta name="image" content="{{ '/assets/svg/logo.svg' | site.url }}">
 
     <!-- URL Canonica -->
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
@@ -50,6 +51,21 @@ layout: compress
     <meta name="msapplication-wide310x150logo" content="https://smartex.agr.br/assets/favicon/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="https://smartex.agr.br/assets/favicon/mstile-310x310.png" />
 
+
+    <!-- Redes Sociais - OpenGraph -->
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="{{ site.title }} - {{ site.slogan }}">
+    <meta itemprop="description" content="{{ site.description }}">
+    <meta itemprop="image" content="{{ '/assets/svg/logo.svg' | site.url }}">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="{{ site.title }} - {{ site.slogan }}">
+    <meta name="og:description" content="{{ site.description }}">
+    <meta name="og:image" content="{{ '/assets/svg/logo.svg' | site.url }}">
+    <meta name="og:url" content="{{ site.url }}">
+    <meta name="og:site_name" content="{{ site.title }}">
+    <meta name="og:locale" content="pt_br">
+    <meta name="og:video" content="{{ '/assets/video/bg.mp4' | site.url }}">
+    <meta name="og:type" content="website">
 
     <!-- CSS -->
     <link
