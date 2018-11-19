@@ -14,7 +14,7 @@ layout: compress
     <title>{{ site.title }} - {{ site.slogan }}</title>
     <meta name="application-name" content="{{ site.title }} - {{ site.slogan }}"/>
     <meta name="description" content="{{ site.description }}" />
-    <meta name="image" content="{{ '/assets/img/logo.png' | prepend: site.url }}">
+    <meta name="image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
 
     <!-- URL Canonica -->
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
@@ -56,11 +56,11 @@ layout: compress
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="{{ site.title }} - {{ site.slogan }}">
     <meta itemprop="description" content="{{ site.description }}">
-    <meta itemprop="image" content="{{ '/assets/img/logo.png' | prepend: site.url }}">
+    <meta itemprop="image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
     <meta name="og:title" content="{{ site.title }} - {{ site.slogan }}">
     <meta name="og:description" content="{{ site.description }}">
-    <meta name="og:image" content="{{ '/assets/img/logo.png' | prepend: site.url }}">
+    <meta name="og:image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
     <meta name="og:url" content="{{ site.url }}">
     <meta name="og:site_name" content="{{ site.title }}">
     <meta name="og:locale" content="pt_br">
