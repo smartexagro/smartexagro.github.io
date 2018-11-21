@@ -17,6 +17,9 @@ sections:
   label: Postagens
   create: documents
   match: "**/*"
+- type: document
+  path: _config.yml
+  label: Configurações
 upload_dir: "./uploads"
 public_path: "/uploads"
 front_matter_path: ''
