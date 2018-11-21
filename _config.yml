@@ -9,12 +9,16 @@ description: >- # Alterar apenas nas linhas abaixo
   qualidade da borracha, longevidade, além da apropriação do processo de explotação
 baseurl: "/"
 url: "https://smartex.agr.br"
+
 # Mídias Sociais
 twitter_username: smartexagro
 github_username: smartexagro
 youtube_username: UCgCxamxZSoTWMM0hwSNdWdA
 intagram_username: smartexagro
 facebook_username: smartexagro
+
+# SEO
+keywords: "automação,sangria,seringueira,heveicultura de precisão,borracha natural,latex,sensoriamento remoto,aereo agropecuário,vant,agricultura de precisão"
 
 # Serviços de Rastramento
 google_analytics_key: UA-128989682-1
