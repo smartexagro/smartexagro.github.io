@@ -4,10 +4,6 @@ auto_deploy: true
 admin_path: painel
 webhook_url: 
 sections:
-- type: document
-  path: _config.yml
-  label: Configurações
-  match: "**/*"
 - type: directory
   path: _blocks
   label: Blocos
@@ -20,6 +16,10 @@ sections:
   path: _posts
   label: Postagens
   create: documents
+  match: "**/*"
+- type: document
+  path: _config.yml
+  label: Configurações
   match: "**/*"
 upload_dir: "./uploads"
 public_path: "/uploads"
