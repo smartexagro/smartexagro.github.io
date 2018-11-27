@@ -39,13 +39,15 @@ $( document )
       speed: 600,
       easing: 'easeInOutQuad',
       offset: function ( anchor, toggle ) {
+        
+        mixpanel.track("Link Clickado: " + $( toggle ).text());
+
         if ( $( toggle )
           .attr( 'href' ) == '#quem-somos' ) {
           return 80;
         }
-        mixpanel.track("Link Clickado: " + $( toggle ).text());
         return 0;
       },
     } );
-    
+
   } )
