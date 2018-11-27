@@ -1,0 +1,26 @@
+{
+  "name": "smartexagro.github.io",
+  "version": "1.0.0",
+  "description": "Site da Smartex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartexagro/smartexagro.github.io.git"
+  },
+  "keywords": [
+    "smartex",
+    "site",
+    "heveicultura",
+    "gitpages"
+  ],
+  "author": "Hans Bonini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartexagro/smartexagro.github.io/issues"
+  },
+  "homepage": "https://github.com/smartexagro/smartexagro.github.io#readme"
+}
