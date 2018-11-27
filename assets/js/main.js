@@ -43,8 +43,9 @@ $( document )
           .attr( 'href' ) == '#quem-somos' ) {
           return 80;
         }
+        mixpanel.track("Link Clickado: " + $( toggle ).text());
         return 0;
       },
     } );
-
+    
   } )
