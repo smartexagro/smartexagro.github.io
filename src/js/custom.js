@@ -5,10 +5,10 @@
 */
 
 /* Importa o jQuery */
-import jQuery from 'jquery/dist/jquery.slim';
+import jQuery from 'jquery/dist/jquery';
 
 /* Importa o Smooth Scroll */
-import 'smooth-scroll/src/js/smooth-scroll';
+import SmoothScroll from 'smooth-scroll/src/js/smooth-scroll';
 
 /* Importa o Waypoints */
 import 'waypoints/src/waypoint';
