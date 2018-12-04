@@ -4,7 +4,14 @@
     Author: Hans Bonini
 */
 
+/* Importa o jQuery */
 import jQuery from 'jquery/dist/jquery.slim';
+
+/* Importa o Smooth Scroll */
+import 'smooth-scroll/src/js/smooth-scroll';
+
+/* Importa o Waypoints */
+import 'waypoints/src/waypoint';
 
 (function ($) {
 
