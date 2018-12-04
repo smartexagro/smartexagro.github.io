@@ -5,7 +5,7 @@
 */
 
 /* Importa o jQuery */
-import jQuery from 'jquery/dist/jquery';
+window.jQuery = window.$ = require("jquery");
 
 /* Importa o Smooth Scroll */
 import SmoothScroll from 'smooth-scroll/src/js/smooth-scroll';
