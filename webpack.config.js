@@ -44,8 +44,8 @@ module.exports = (env, argv) => {
             }),
             new webpack.ProvidePlugin({
                 /* Use when importing individual BS components */
-                //'$': 'jquery/dist/jquery.slim.js',
-                //'jQuery': 'jquery/dist/jquery.slim.js',
+                '$': 'jquery/dist/jquery.slim.js',
+                'jQuery': 'jquery/dist/jquery.slim.js',
                 //'Popper': 'popper.js/dist/umd/popper', /* required for tooltips */
                 //'Util': 'exports-loader?Util!bootstrap/js/dist/util'
             }),
