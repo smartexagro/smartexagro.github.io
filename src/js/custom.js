@@ -11,7 +11,7 @@ import jQuery from 'jquery/dist/jquery';
 import SmoothScroll from 'smooth-scroll/src/js/smooth-scroll';
 
 /* Importa o Waypoints */
-import Waypoint from 'waypoints/src/waypoint';
+import Waypoint from 'waypoints/lib/jquery.waypoints';
 
 (function ($) {
 
