@@ -5,7 +5,7 @@
 */
 
 /* Importa o jQuery */
-window.jQuery = window.$ = require("jquery");
+import jQuery from 'jquery/dist/jquery';
 
 /* Importa o Smooth Scroll */
 import SmoothScroll from 'smooth-scroll/src/js/smooth-scroll';
@@ -72,26 +72,30 @@ import 'waypoints/lib/jquery.waypoints';
         });
 
         // Waypoints enviando dados pro Mixpanel
-        var wp_quemsomos = $('#quem-somos').waypoint({
-            handler: function (direction) {
+        var wp_quemsomos = new Waypoint({
+            element: document.getElementById('quem-somos'),
+            handler: function () {
                 mixpanel.track("Visualizando Bloco: Quem Somos");
             }
         });
-        var wp_sangriaautomatizada =  $('#sangria-automatizada').waypoint({
-            handler: function (direction) {
+        var wp_sangriaautomatizada = new Waypoint({
+            element: document.getElementById('sangria-automatizada'),
+            handler: function () {
                 mixpanel.track("Visualizando Bloco: Sangria Automatizada");
             }
         });
-        var wp_sensoriamentoremoto =  $('#sensoriamento-remoto').waypoint({
-            handler: function (direction) {
+        var wp_sensoriamentoremoto = new Waypoint({
+            element: document.getElementById('sensoriamento-remoto'),
+            handler: function () {
                 mixpanel.track("Visualizando Bloco: Sensoriamento Remoto");
             }
         });
-        var wp_contato =  $('#contato').waypoint({
-            handler: function (direction) {
+        var wp_contato = new Waypoint({
+            element: document.getElementById('contato'),
+            handler: function () {
                 mixpanel.track("Visualizando Bloco: Contato");
             }
-        });
+        })
     });
 
 })(jQuery);
