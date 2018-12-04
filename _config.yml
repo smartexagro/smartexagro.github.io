@@ -30,8 +30,6 @@ collections:
 
 # Configurações do Build
 markdown: kramdown
-sass:
-  style: :compressed
 
 # Plugins
 plugins:

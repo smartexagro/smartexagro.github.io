@@ -4,236 +4,279 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="pt-br" itemscope itemtype="http://schema.org/Webpage">
-  <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
 
-
-    <!-- SEO -->
-    <title>{{ site.title }} - {{ site.slogan }}</title>
-    <meta name="application-name" content="{{ site.title }} - {{ site.slogan }}"/>
-    <meta name="description" content="{{ site.description }}" />
-    <meta name="image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
-    <meta name="keywords" content="{{ site.keywords }}" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <!-- URL Canonica -->
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
+  <!-- SEO -->
+  <title>{{ site.title }} - {{ site.slogan }}</title>
+  <meta name="application-name" content="{{ site.title }} - {{ site.slogan }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
+  <meta name="keywords" content="{{ site.keywords }}" />
 
 
-    <!-- Verificação do Google -->
-    <meta name="google-site-verification" content="hHEB3_Pf4HuEFCxDCvsvSyZ3suOMRVqQyXfLoAWT4BU" />
+  <!-- URL Canonica -->
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html',''}}">
 
 
-    <!-- Tema para as Abas dos Navegadores Mobile -->
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#218838">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#218838">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#218838">
+  <!-- Verificação do Google -->
+  <meta name="google-site-verification" content="hHEB3_Pf4HuEFCxDCvsvSyZ3suOMRVqQyXfLoAWT4BU" />
 
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-128.png" sizes="128x128" />
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="https://smartex.agr.br/assets/favicon/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="https://smartex.agr.br/assets/favicon/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="https://smartex.agr.br/assets/favicon/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="https://smartex.agr.br/assets/favicon/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="https://smartex.agr.br/assets/favicon/mstile-310x310.png" />
+  <!-- Tema para as Abas dos Navegadores Mobile -->
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#218838">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#218838">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#218838">
 
 
-    <!-- Redes Sociais - OpenGraph -->
-    <!-- Schema.org for Google -->
-    <meta itemprop="name" content="{{ site.title }} - {{ site.slogan }}">
-    <meta itemprop="description" content="{{ site.description }}">
-    <meta itemprop="image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
-    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:title" content="{{ site.title }} - {{ site.slogan }}">
-    <meta name="og:description" content="{{ site.description }}">
-    <meta name="og:image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
-    <meta name="og:image:height" content="158">
-    <meta name="og:image:width" content="158">
-    <meta name="og:url" content="{{ site.url }}">
-    <meta name="og:site_name" content="{{ site.title }}">
-    <meta name="og:locale" content="pt_br">
-    <meta name="og:video" content="{{ '/assets/video/bg.mp4' | prepend: site.url }}">
-    <meta name="og:type" content="website">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://smartex.agr.br/assets/favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://smartex.agr.br/assets/favicon/favicon-128.png" sizes="128x128" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="https://smartex.agr.br/assets/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="https://smartex.agr.br/assets/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="https://smartex.agr.br/assets/favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="https://smartex.agr.br/assets/favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="https://smartex.agr.br/assets/favicon/mstile-310x310.png" />
 
-    <!-- CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous" />
-    <link rel="stylesheet"
-      href="{{ '/assets/css/main.css' | relative_url }}" />
 
-    <!-- Fontes -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto"
-      rel="stylesheet" />
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous">
-    <link href='https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css'
-      rel='stylesheet' />
+  <!-- Redes Sociais - OpenGraph -->
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="{{ site.title }} - {{ site.slogan }}">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="{{ site.title }} - {{ site.slogan }}">
+  <meta name="og:description" content="{{ site.description }}">
+  <meta name="og:image" content="{{ '/assets/img/og-image.png' | prepend: site.url }}">
+  <meta name="og:image:height" content="158">
+  <meta name="og:image:width" content="158">
+  <meta name="og:url" content="{{ site.url }}">
+  <meta name="og:site_name" content="{{ site.title }}">
+  <meta name="og:locale" content="pt_br">
+  <meta name="og:video" content="{{ '/assets/video/bg.mp4' | prepend: site.url }}">
+  <meta name="og:type" content="website">
 
-  </head>
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet" />
+
+</head>
 
 
 
-  <body>
-    <!-- Suporte de Browser -->
-    <!--[if IE]>
+<body>
+  <!-- Suporte de Browser -->
+  <!--[if IE]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Scroll Top -->
-    <div id="inicio" class="scroll-top">
-      <a href="#inicio">
-        <i class="fas fa-angle-up"></i>
-      </a>
+  <!-- Scroll Top -->
+  <div id="inicio" class="scroll-top">
+    <a href="#inicio">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
+
+  <!-- Menu Principal -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Logomarca -->
+    <a class="navbar-brand" href="https://smartex.agr.br">
+      <img src="{{ '/assets/svg/logo.svg' | relative_url }}" width="84" height="50" class="d-inline-block align-top"
+        alt="">
+    </a>
+
+    <!-- Botão Mobile - Exibir Menu -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegacao" aria-controls="navegacao"
+      aria-expanded="false" aria-label="Exibir Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navegacao">
+      <!-- Links de Navegação -->
+      <ul class="navbar-nav justify-content-between ml-auto">
+        {% assign menus = site.data.menus.principal | sort: 'weight' %}
+        {% for item in menus %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ item.url }}" title="Ir para {{ item.title }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
 
-    <!-- Menu Principal -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- Logomarca -->
-      <a class="navbar-brand" href="https://smartex.agr.br">
-        <img src="{{ '/assets/svg/logo.svg' | relative_url }}" width="84" height="50" class="d-inline-block align-top" alt="">
-      </a>
+  </nav>
 
-      <!-- Botão Mobile - Exibir Menu -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegacao" aria-controls="navegacao" aria-expanded="false" aria-label="Exibir Menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Aprensentação -->
+  <header id="apresentacao">
+    <div class="jumbotron jumbotron-fluid">
 
-      <!-- Menu -->
-      <div class="collapse navbar-collapse" id="navegacao">
-        <!-- Links de Navegação -->
-        <ul class="navbar-nav justify-content-between ml-auto">
-          {% assign menus = site.data.menus.principal | sort: 'weight' %}
-          {% for item in menus %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ item.url }}" title="Ir para {{ item.title }}">{{ item.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <!-- Video de Fundo -->
+      <video autoplay muted loop poster="{{ '/assets/img/destaque.jpg' | relative_url }}">
+        <source src="" data-src="{{ '/assets/video/bg.mp4' | relative_url }}" type="video/mp4">
+      </video>
 
-    </nav>
-
-    <!-- Aprensentação -->
-    <header id="apresentacao">
-      <div class="jumbotron jumbotron-fluid">
-
-        <!-- Video de Fundo -->
-        <video autoplay muted loop poster="{{ '/assets/img/destaque.jpg' | relative_url }}">
-          <source src="" data-src="{{ '/assets/video/bg.mp4' | relative_url }}" type="video/mp4">
-        </video>
-
-        <!-- Conteudo -->
-        <div class="container text-white">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-sm-12 mt-5 text-center">
-                <img src="{{ '/assets/svg/logo.svg' | relative_url }}" class="d-inline-block align-top img-fluid" alt="">
-              </div>
+      <!-- Conteudo -->
+      <div class="container text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-sm-12 mt-5 text-center">
+              <img src="{{ '/assets/svg/logo.svg' | relative_url }}" class="d-inline-block align-top img-fluid" alt="">
             </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-sm-12 text-center">
-                <h1 class="sr-only">Heveicultura de Precisão</h1>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-sm-12 text-center">
+              <h1 class="sr-only">Heveicultura de Precisão</h1>
             </div>
-            <div class="row d-none d-xs-block d-sm-block d-md-none">
-              <div class="mx-auto">
-                <a id="botao-conhecer" class="btn btn-success btn-lg" href="#quem-somos" role="button">Conheça</a>
-              </div>
+          </div>
+          <div class="row d-none d-xs-block d-sm-block d-md-none">
+            <div class="mx-auto">
+              <a id="botao-conhecer" class="btn btn-success btn-lg" href="#quem-somos" role="button">Conheça</a>
             </div>
           </div>
         </div>
-
-        <!-- Midia Social -->
-        <ul class="d-none d-md-block midia-social">
-          <li>
-            <a href="https://fb.com/{{ site.facebook_username }}" title="Ir para o Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
-          </li>
-          <li>
-            <a href="https://instagram.com/{{ site.intagram_username }}" title="Ir para o Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="https://youtube.com/channel/{{ site.youtube_username }}" title="Ir para o Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
-          </li>
-        </ul>
-
-        <!-- Animação Rolar para Baixo -->
-        <div class="d-none d-md-block scrolldown">
-          <div class="scroll-icon smoothscroll">
-              <span>Role para baixo</span>
-              <i class="fas fa-long-arrow-alt-right"></i>
-          </div>
-        </div>
-
       </div>
-    </header>
 
-     <!-- Conteudo do Site -->
-     <main>
-       {{ content }}
-     </main>
+      <!-- Midia Social -->
+      <ul class="d-none d-md-block midia-social">
+        <li>
+          <a href="https://fb.com/{{ site.facebook_username }}" title="Ir para o Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/{{ site.intagram_username }}" title="Ir para o Instagram" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://youtube.com/channel/{{ site.youtube_username }}" title="Ir para o Youtube" target="_blank"><i
+              class="fab fa-youtube"></i></a>
+        </li>
+      </ul>
 
-    <!-- JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
-    <script
-      src="{{ '/assets/js/main.js' | relative_url }}" type="text/javascript">
-    </script>
+      <!-- Animação Rolar para Baixo -->
+      <div class="d-none d-md-block scrolldown">
+        <div class="scroll-icon smoothscroll">
+          <span>Role para baixo</span>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
 
-    <!-- Analytics -->
-    {% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ site.google_analytics_key }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    {% endif %}
+    </div>
+  </header>
 
-    <!-- Mix Panel -->
-    <script type="text/javascript">
-    (function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
-0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
-mixpanel.init("b9d42d5f45384a477fb9842b057af083");
-    </script>
+  <!-- Conteudo do Site -->
+  <main>
+    {{ content }}
+  </main>
 
-  </body>
+  <!-- JS -->
+  <script src="{{ '/assets/js/main.js' | relative_url }}" type="text/javascript"></script>
+
+  <!-- Analytics -->
+  {% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+  <script>
+    window.ga = window.ga || function () {
+      (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', '{{ site.google_analytics_key }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  {% endif %}
+
+  <!-- Mix Panel -->
+  <script type="text/javascript">
+    (function (c, a) {
+      if (!a.__SV) {
+        var b = window;
+        try {
+          var d, m, j, k = b.location,
+            f = k.hash;
+          d = function (a, b) {
+            return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null
+          };
+          f && d(f, "state") && (j = JSON.parse(decodeURIComponent(d(f, "state"))), "mpeditor" === j.action && (b.sessionStorage
+            .setItem("_mpcehash", f), history.replaceState(j.desiredHash || "", c.title, k.pathname + k.search)))
+        } catch (n) {}
+        var l, h;
+        window.mixpanel = a;
+        a._i = [];
+        a.init = function (b, d, g) {
+          function c(b, i) {
+            var a = i.split(".");
+            2 == a.length && (b = b[a[0]], i = a[1]);
+            b[i] = function () {
+              b.push([i].concat(Array.prototype.slice.call(arguments,
+                0)))
+            }
+          }
+          var e = a;
+          "undefined" !== typeof g ? e = a[g] = [] : g = "mixpanel";
+          e.people = e.people || [];
+          e.toString = function (b) {
+            var a = "mixpanel";
+            "mixpanel" !== g && (a += "." + g);
+            b || (a += " (stub)");
+            return a
+          };
+          e.people.toString = function () {
+            return e.toString(1) + ".people (stub)"
+          };
+          l =
+            "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove"
+            .split(" ");
+          for (h = 0; h < l.length; h++) c(e, l[h]);
+          var f = "set set_once union unset remove delete".split(" ");
+          e.get_group = function () {
+            function a(c) {
+              b[c] = function () {
+                call2_args = arguments;
+                call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                e.push([d, call2])
+              }
+            }
+            for (var b = {}, d = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < f.length; c++)
+              a(f[c]);
+            return b
+          };
+          a._i.push([b, d, g])
+        };
+        a.__SV = 1.2;
+        b = c.createElement("script");
+        b.type = "text/javascript";
+        b.async = !0;
+        b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+          MIXPANEL_CUSTOM_LIB_URL : "file:" === c.location.protocol &&
+          "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ?
+          "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";
+        d = c.getElementsByTagName("script")[0];
+        d.parentNode.insertBefore(b, d)
+      }
+    })(document, window.mixpanel || []);
+    mixpanel.init("b9d42d5f45384a477fb9842b057af083");
+  </script>
+
+</body>
+
 </html>

@@ -1,56 +1,55 @@
 <section id="{{ page.name }}" class="bloco">
   <div class="container">
-   <div class="row">
-     <!-- Título do Bloco -->
-     <div class="col-xs-12 col-sm-12 col-md-4">
-       <h2>{{ page.title }}</h2>
-     </div>
-     <!-- Conteúdo do Bloco -->
-     <div class="col-xs-12 col-sm-12 col-md-8">
-       {{ content }}
-     </div>
-   </div>  
-   <!-- Tópicos Informativos -->
-   <div class="row">
-    {% assign list = site.blocks | where_exp: "item" , "item.id contains page.id" | uniq | sort: "weight" %}
-    {% for item in list %}
+    <div class="row">
+      <!-- Título do Bloco -->
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <h2>{{ page.title }}</h2>
+      </div>
+      <!-- Conteúdo do Bloco -->
+      <div class="col-xs-12 col-sm-12 col-md-8">
+        {{ content }}
+      </div>
+    </div>
+    <!-- Tópicos Informativos -->
+    <div class="row">
+      {% assign list = site.blocks | where_exp: "item" , "item.id contains page.id" | uniq | sort: "weight" %}
+      {% for item in list %}
       {% assign level = item.id | split: "/" | size %}
       {% if level == 4 %}
-        {% if item.col_width %}
-        <div class="col-xs-12 col-sm-12 col-md-{{ item.col_width }} p-10"">
+      {% if item.col_width %}
+      <div class="col-xs-12 col-sm-12 col-md-{{ item.col_width }} p-10"">
         {% else %}
-        <div class="col-xs-12 col-sm-12 col-md-12 p-10">
+        <div class="
+        col-xs-12 col-sm-12 col-md-12 p-10">
         {% endif %}
-          <div class="card" id="{{ item.url | slugify }}">
-            {% if item.featured_image %}
-            <!-- Imagem em Destaque do Tópico -->
-            <img class="card-img-top" src="{{ item.featured_image | prepend: baseurl }}" alt="{{ item.title }}">
-            {% endif %}
-            <div class="card-body">
-              {% if item.type == "video" %}
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" 
-                  src="{{ item.content }}"
-                  allowfullscreen>
-                </iframe>
-              </div>
-              {% else %}
-              <!-- Título do Tópico -->
-              <h5 class="card-title">
-                <strong>{{ item.title }}</strong>
-                {% if item.description %}
-                - {{ item.description }}
-                {% endif %}
-              </h5>
-              <hr />
-              <!-- Conteúdo do Tópico -->
-              <p class="card-text">{{ item.content | markdownify }}</p>
-              {% endif %}
+        <div class="card" id="{{ item.url | slugify }}">
+          {% if item.featured_image %}
+          <!-- Imagem em Destaque do Tópico -->
+          <img class="card-img-top" src="{{ item.featured_image | prepend: baseurl }}" alt="{{ item.title }}">
+          {% endif %}
+          <div class="card-body">
+            {% if item.type == "video" %}
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="{{ item.content }}" allowfullscreen>
+              </iframe>
             </div>
+            {% else %}
+            <!-- Título do Tópico -->
+            <h5 class="card-title">
+              <strong>{{ item.title }}</strong>
+              {% if item.description %}
+              - {{ item.description }}
+              {% endif %}
+            </h5>
+            <hr />
+            <!-- Conteúdo do Tópico -->
+            <p class="card-text">{{ item.content | markdownify }}</p>
+            {% endif %}
           </div>
         </div>
+      </div>
       {% endif %}
-    {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>

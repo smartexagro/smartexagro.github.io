@@ -1,3 +1,45 @@
+/* Boostrap 4 Full Bundle */
+@import "~bootstrap/scss/bootstrap";
+
+/* Bootstrap Individual CSS Files (Required) */
+/* @import "~bootstrap/scss/functions"; */
+/* @import "~bootstrap/scss/variables"; */
+/* @import "~bootstrap/scss/mixins"; */
+
+/* Bootstrap Individual CSS Files (Optional) */
+/* @import "~bootstrap/scss/root"; */
+/* @import "~bootstrap/scss/reboot"; */
+/* @import "~bootstrap/scss/type"; */
+/* @import "~bootstrap/scss/images"; */
+/* @import "~bootstrap/scss/code"; */
+/* @import "~bootstrap/scss/grid"; */
+/* @import "~bootstrap/scss/tables"; */
+/* @import "~bootstrap/scss/forms"; */
+/* @import "~bootstrap/scss/buttons"; */
+/* @import "~bootstrap/scss/transitions"; */
+/* @import "~bootstrap/scss/dropdown"; /* requiers popper.js */
+/* @import "~bootstrap/scss/button-group"; */
+/* @import "~bootstrap/scss/input-group"; */
+/* @import "~bootstrap/scss/custom-forms"; */
+/* @import "~bootstrap/scss/nav"; */
+/* @import "~bootstrap/scss/navbar"; */
+/* @import "~bootstrap/scss/card"; */
+/* @import "~bootstrap/scss/breadcrumb"; */
+/* @import "~bootstrap/scss/pagination"; */
+/* @import "~bootstrap/scss/badge"; */
+/* @import "~bootstrap/scss/jumbotron"; */
+/* @import "~bootstrap/scss/alert"; */
+/* @import "~bootstrap/scss/progress"; */
+/* @import "~bootstrap/scss/media"; */
+/* @import "~bootstrap/scss/list-group"; */
+/* @import "~bootstrap/scss/close"; */
+/* @import "~bootstrap/scss/modal"; */
+/* @import "~bootstrap/scss/tooltip"; /* requires popper.js */
+/* @import "~bootstrap/scss/popover"; */
+/* @import "~bootstrap/scss/carousel"; */
+/* @import "~bootstrap/scss/utilities"; */
+/* @import "~bootstrap/scss/print"; */
+
 /*
 // Classe para aplicar fundo cinza
 */
@@ -13,90 +55,90 @@
 // Botão Voltar (Scroll to Top)
 */
 .scroll-top {
-    display: none;
-    position: fixed;
-    z-index: 9995;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
+  display: none;
+  position: fixed;
+  z-index: 9995;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
 
 @media (min-width: 576px) {
-    .scroll-top {
-        bottom: 2.5rem;
-        right: 2.5rem;
-    }
+  .scroll-top {
+    bottom: 2.5rem;
+    right: 2.5rem;
+  }
 }
 
-.scroll-top > a {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: rgba(44, 42, 52, 0.3);
-    -webkit-box-shadow: 0 10px 20px 2px rgba(44, 42, 52, 0.15);
-    box-shadow: 0 10px 20px 2px rgba(44, 42, 52, 0.15);
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.125rem;
-    -webkit-transition: all 0.35s ease;
-    -o-transition: all 0.35s ease;
-    transition: all 0.35s ease;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-    .scroll-top > a {
-        -webkit-transition: none;
-        -o-transition: none;
-        transition: none;
-    }
-}
-
-.scroll-top > a > i {
-    -webkit-transition: all 0.55s ease;
-    -o-transition: all 0.55s ease;
-    transition: all 0.55s ease;
+.scroll-top>a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(44, 42, 52, 0.3);
+  -webkit-box-shadow: 0 10px 20px 2px rgba(44, 42, 52, 0.15);
+  box-shadow: 0 10px 20px 2px rgba(44, 42, 52, 0.15);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+  -webkit-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-    .scroll-top > a > i {
-        -webkit-transition: none;
-        -o-transition: none;
-        transition: none;
-    }
+  .scroll-top>a {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
 }
 
-.scroll-top > a:hover {
-    background-color: rgba(44, 42, 52, 0.6);
-    -webkit-box-shadow: 0 10px 25px 2px rgba(44, 42, 52, 0.25);
-    box-shadow: 0 10px 25px 2px rgba(44, 42, 52, 0.25);
-    text-decoration: none;
-    color: #fff;
+.scroll-top>a>i {
+  -webkit-transition: all 0.55s ease;
+  -o-transition: all 0.55s ease;
+  transition: all 0.55s ease;
 }
 
-.scroll-top > a:hover > i {
-    -webkit-transform: translateY(-4px);
-    -ms-transform: translateY(-4px);
-    transform: translateY(-4px);
+@media screen and (prefers-reduced-motion: reduce) {
+  .scroll-top>a>i {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+
+.scroll-top>a:hover {
+  background-color: rgba(44, 42, 52, 0.6);
+  -webkit-box-shadow: 0 10px 25px 2px rgba(44, 42, 52, 0.25);
+  box-shadow: 0 10px 25px 2px rgba(44, 42, 52, 0.25);
+  text-decoration: none;
+  color: #fff;
+}
+
+.scroll-top>a:hover>i {
+  -webkit-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
 }
 
 /*
@@ -107,8 +149,8 @@
   background-color: #181818a6 !important;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  z-index:1020;
-  position:absolute;
+  z-index: 1020;
+  position: absolute;
   width: 100%;
 
   li {
@@ -131,18 +173,18 @@
 .jumbotron {
   position: relative;
   overflow: hidden;
-  background-color:black;
+  background-color: black;
   height: 100vh;
 
   video {
     position: absolute;
     z-index: 1;
     top: 0;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     /*  object-fit is not supported on IE  */
     object-fit: cover;
-    opacity:0.5;
+    opacity: 0.5;
   }
 
   .container {
@@ -242,61 +284,73 @@
   /* vertical animation */
 
   @-webkit-keyframes animate-it {
+
     0%,
     60%,
     80%,
     100% {
       -webkit-transform: translateX(0);
     }
+
     0%,
     60%,
     80%,
     100% {
       transform: translateX(0);
     }
+
     20% {
       -webkit-transform: translateX(-5px);
     }
+
     20% {
       transform: translateX(-5px);
     }
+
     40% {
       -webkit-transform: translateX(20px);
     }
+
     40% {
       transform: translateX(20px);
     }
   }
 
   @keyframes animate-it {
+
     0%,
     60%,
     80%,
     100% {
       -webkit-transform: translateX(0);
     }
+
     0%,
     60%,
     80%,
     100% {
       transform: translateX(0);
     }
+
     20% {
       -webkit-transform: translateX(-5px);
     }
+
     20% {
       transform: translateX(-5px);
     }
+
     40% {
       -webkit-transform: translateX(20px);
     }
+
     40% {
       transform: translateX(20px);
     }
   }
 
   .btn {
-      margin-top: 20px;
+    margin-top: 20px;
   }
 }
 
@@ -308,25 +362,26 @@
 */
 
 footer,
-section, {
-    padding: 150px 0;
-    margin-top: -2px
+section,
+  {
+  padding: 150px 0;
+  margin-top: -2px
 }
 
 footer,
 section {
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    transform: skewY(-5deg)
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  transform: skewY(-5deg)
 }
 
 footer>div,
 section>div {
-    -webkit-transform: skewY(5deg);
-    -moz-transform: skewY(5deg);
-    -ms-transform: skewY(5deg);
-    transform: skewY(5deg)
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  transform: skewY(5deg)
 }
 
 
@@ -347,6 +402,7 @@ section.bloco {
     left: 0;
     top: 50px
   }
+
   h4 {
     color: #686868;
     font-family: 'Roboto', sans-serif;
@@ -363,6 +419,7 @@ section.bloco {
       font-size: 5em;
       color: #218838;
     }
+
     h5 {
       font-size: 2.4em;
       margin-top: 6px;
@@ -380,6 +437,7 @@ section#sangria-automatizada {
     width: 220px;
     margin-left: auto;
   }
+
   h2 {
     text-align: right;
     width: 94%;
@@ -397,6 +455,7 @@ section#contato {
   h2::before {
     margin-left: auto;
   }
+
   h2 {
     text-align: right;
   }

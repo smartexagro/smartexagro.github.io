@@ -1,0 +1,72 @@
+/* Importa os arquivos CSS */
+import '../css/_layout.scss';
+import '../css/_fonts.scss';
+
+/* Importa o bundle completo do Bootstrap */
+import 'bootstrap/dist/js/bootstrap.bundle';
+
+/* Importa o Smooth Scroll */
+import 'smooth-scroll/src/js/smooth-scroll';
+
+/* Importa o Waypoints */
+import 'waypoints/src/waypoint';
+
+/* Codigo JS do Site */
+$(document)
+  .ready(function ($) {
+
+    // Função de carregamento do video em modo defer
+    function deferVideo() {
+      $("video source").each(function () {
+        var sourceFile = $(this)
+          .attr("data-src");
+        $(this)
+          .attr("src", sourceFile);
+        var video = this.parentElement;
+        video.load();
+      });
+    }
+
+
+    // Navbar fixa após rolagem
+    $(window)
+      .on('scroll', function () {
+        if ($(window)
+          .scrollTop() >= $(window)
+          .height() - 110) {
+          $('.navbar')
+            .addClass('sticky-top');
+          $('.scroll-top')
+            .fadeIn();
+        } else {
+          $('.navbar')
+            .removeClass('sticky-top');
+          $('.scroll-top')
+            .fadeOut();
+        }
+      });
+
+
+    // Defer para carregamento posterior do video
+    deferVideo();
+
+
+    // Rolagem Suave
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 600,
+      easing: 'easeInOutQuad',
+      offset: function (anchor, toggle) {
+
+        // Evento de click do menu do Mixpanel
+        mixpanel.track("Link Clickado: " + $(toggle).text());
+
+        if ($(toggle)
+          .attr('href') == '#quem-somos') {
+          return 80;
+        }
+
+        return 0;
+      },
+    });
+
+  });
