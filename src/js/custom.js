@@ -72,30 +72,26 @@ import Waypoint from 'waypoints/lib/jquery.waypoints';
         });
 
         // Waypoints enviando dados pro Mixpanel
-        var wp_quemsomos = new Waypoint({
-            element: document.getElementById('quem-somos'),
-            handler: function () {
+        var wp_quemsomos = $('#quem-somos').waypoint({
+            handler: function (direction) {
                 mixpanel.track("Visualizando Bloco: Quem Somos");
             }
         });
-        var wp_sangriaautomatizada = new Waypoint({
-            element: document.getElementById('sangria-automatizada'),
-            handler: function () {
+        var wp_sangriaautomatizada =  $('#sangria-automatizada').waypoint({
+            handler: function (direction) {
                 mixpanel.track("Visualizando Bloco: Sangria Automatizada");
             }
         });
-        var wp_sensoriamentoremoto = new Waypoint({
-            element: document.getElementById('sensoriamento-remoto'),
-            handler: function () {
+        var wp_sensoriamentoremoto =  $('#sensoriamento-remoto').waypoint({
+            handler: function (direction) {
                 mixpanel.track("Visualizando Bloco: Sensoriamento Remoto");
             }
         });
-        var wp_contato = new Waypoint({
-            element: document.getElementById('contato'),
-            handler: function () {
+        var wp_contato =  $('#contato').waypoint({
+            handler: function (direction) {
                 mixpanel.track("Visualizando Bloco: Contato");
             }
-        })
+        });
     });
 
 })(jQuery);
