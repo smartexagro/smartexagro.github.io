@@ -3,6 +3,9 @@
     Versão: 1.0
     Author: Hans Bonini
 */
+
+import jQuery from 'jquery/dist/jquery.slim';
+
 (function ($) {
 
     $(document).ready(function ($) {
