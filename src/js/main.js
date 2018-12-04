@@ -1,6 +1,7 @@
 /* Importa os arquivos CSS */
-import '../css/_layout.scss';
+import '../css/_bootstrap.scss';
 import '../css/_fonts.scss';
+import '../css/_layout.scss';
 
 /* Importa o bundle completo do Bootstrap */
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -68,5 +69,31 @@ $(document)
         return 0;
       },
     });
+
+    // Waypoints enviando dados pro Mixpanel
+    var wp_quemsomos = new Waypoint({
+      element: document.getElementById('quem-somos'),
+      handler: function() {
+        mixpanel.track("Visualizando Bloco: Quem Somos");
+      }
+    });
+    var wp_sangriaautomatizada = new Waypoint({
+      element: document.getElementById('sangria-automatizada'),
+      handler: function() {
+        mixpanel.track("Visualizando Bloco: Sangria Automatizada");
+      }
+    });
+    var wp_sensoriamentoremoto = new Waypoint({
+      element: document.getElementById('sensoriamento-remoto'),
+      handler: function() {
+        mixpanel.track("Visualizando Bloco: Sensoriamento Remoto");
+      }
+    });
+    var wp_contato = new Waypoint({
+      element: document.getElementById('contato'),
+      handler: function() {
+        mixpanel.track("Visualizando Bloco: Contato");
+      }
+    })
 
   });
