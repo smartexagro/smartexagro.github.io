@@ -33,7 +33,7 @@
               <iframe class="embed-responsive-item" src="{{ item.content }}" allowfullscreen>
               </iframe>
             </div>
-            {% else if item.type == "image" %}
+            {% elsif item.type == "image" %}
             <img src="{{item.content}}" alt="item.title" class="img-responsive" />
             {% else %}
             <!-- Título do Tópico -->
