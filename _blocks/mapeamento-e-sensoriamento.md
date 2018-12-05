@@ -3,7 +3,7 @@ layout: block-list-right
 name: sensoriamento-remoto
 title: Sensoriamento Remoto
 weight: 2
-
+featured: /assets/img/sensoriamento-remoto.jpg
 ---
 ##### Com profissionais capacitados e tecnologia própria, utilizamos veículos aéreos não tripulados (VANT) equipados com sensores e componentes específicos para efetuar mapeamento e sensoriamento remoto especializado em heveicultura.
 
