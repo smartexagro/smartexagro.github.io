@@ -3,7 +3,6 @@ layout: block-left
 name: quem-somos
 title: Quem Somos
 weight: 1
-icon: "far fa-handshake"
 ---
 #### A primeira startup brasileira voltada para heveicultura de precisão.
 
