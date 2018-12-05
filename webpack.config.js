@@ -40,6 +40,9 @@ module.exports = (env, argv) => {
         plugins: [
             new CleanWebpackPlugin(['assets']),
             new CopyWebpackPlugin([{
+                    from: 'src/fonts',
+                    to: 'fonts'
+                }, {
                     from: 'node_modules/@fortawesome/fontawesome-free/webfonts',
                     to: 'fonts'
                 }, {
@@ -55,7 +58,9 @@ module.exports = (env, argv) => {
                     to: 'video'
                 },
             ]),
-            new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
+            new ImageminPlugin({
+                test: /\.(jpe?g|png|gif|svg)$/i
+            }),
             new FaviconsWebpackPlugin({
                 // The favicon app title (see https://github.com/haydenbleasel/favicons#usage)
                 // title: 'Webpack App',
