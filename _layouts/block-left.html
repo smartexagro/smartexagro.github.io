@@ -4,6 +4,9 @@
       <!-- Título do Bloco -->
       <div class="col-xs-12 col-sm-12 col-md-4">
         <h2>{{ page.title }}</h2>
+        {% if page.icon %}
+        <i class="{{ page.icon }}"></i>
+        {% endif %}
       </div>
       <!-- Conteúdo do Bloco -->
       <div class="col-xs-12 col-sm-12 col-md-8">
