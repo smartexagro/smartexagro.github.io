@@ -50,7 +50,7 @@ import 'waypoints/lib/noframework.waypoints';
 
 
         // Defer para carregamento posterior do video
-        //deferVideo();
+        deferVideo();
 
 
         // Rolagem Suave
