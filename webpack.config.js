@@ -6,6 +6,8 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 // Plugins para otimizar o SASS e o CSS
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// Plugins para otimizar imagens
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
 // Plugins para gerar Favicons
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 // Plugins de Manutenção
@@ -53,6 +55,7 @@ module.exports = (env, argv) => {
                     to: 'video'
                 },
             ]),
+            new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
             new FaviconsWebpackPlugin({
                 // The favicon app title (see https://github.com/haydenbleasel/favicons#usage)
                 // title: 'Webpack App',
