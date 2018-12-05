@@ -8,6 +8,9 @@
       <!-- Título do Bloco -->
       <div class="col-xs-12 col-sm-12 col-md-4">
         <h2>{{ page.title }}</h2>
+        {% if page.featured %}
+        <img src="{{ page.featured }}" alt="page.title" class="img-fluid rounded w-100" />
+        {% endif %}
       </div>
     </div>
     <!-- Tópicos Informativos -->
