@@ -1,5 +1,6 @@
 ---
 weight: 9
 col_width: 12
+type: image
 ---
-![Heveicultura Seringal]({{ '/assets/img/destaque.jpg' | relative_url }} "Sangria Automatizada em Seringal")
+https://smartex.agr.br/assets/img/destaque.jpg
