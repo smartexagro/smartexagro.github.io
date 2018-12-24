@@ -1,7 +1,7 @@
 ---
 title: CSA
 description: Coagulador de Sangria Autônomo
-weight: 5
+weight: 6
 col_width: 6
 
 ---
