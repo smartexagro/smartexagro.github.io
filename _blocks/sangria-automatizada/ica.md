@@ -1,7 +1,7 @@
 ---
 title: ICA
 description: Implemento de Colheita Automatizada
-weight: 7
+weight: 8
 col_width: 3
 
 ---
