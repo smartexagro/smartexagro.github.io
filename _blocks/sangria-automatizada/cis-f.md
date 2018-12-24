@@ -1,7 +1,7 @@
 ---
 title: CIS-F
 description: Controlador de Implemento de Sangria Fixo
-weight: 2
+weight: 3
 col_width: 4
 
 ---
